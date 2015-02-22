@@ -1,0 +1,21 @@
+@CHARSET "utf-8";
+
+.foto {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin: 20px;
+	padding: 30px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.foto img {
+	height: 80%;
+	width: 80%;
+}
+
+.foto p {
+	font-family: Comic Sans MS;
+	
+}
