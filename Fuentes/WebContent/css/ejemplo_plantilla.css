@@ -1,0 +1,36 @@
+@CHARSET "utf-8";
+@font-face{
+	font-family: organo;
+	src: url(../fonts/Organo.ttf);
+}
+body#fondo{
+	background-image: url(../imagenes/fondo1.jpg);
+	background-size: 1200px 800px;
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+p.decoracion1{
+	color: blue;
+	background-color: rgba(193, 108, 0.5);
+	font-family: organo;
+	font-size: 3em;
+	font-stretch: condensed;
+	font-style: italic;
+	line-height: 100%;
+	text-align: center;
+	text-shadow: 2px 2px #8A8F81;
+	border: 2px solid #8A8F81;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 2px 2px 5px #8A8F81;
+	width: 800px;
+	height: 50px;
+	}
+p.decoracion2{
+	color: red;
+	background-color: rgba(50, 147, 169, 0.4);
+	font-size: 30px;
+	font-stretch: condensed;
+	font-style: oblique;
+	line-height: 200%;
+	text-align: center;
+	}
