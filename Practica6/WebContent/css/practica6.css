@@ -1,0 +1,34 @@
+@CHARSET "utf-8";
+
+header {
+	border: 3px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px #000000;
+}
+
+form input {
+	margin: 10px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 8px #000000;
+}
+
+form label {
+	margin: 10px;
+	box-shadow: 2px 2px 8px #000000;
+}
+
+form input:valid {
+	border-color: lime;
+}
+
+form input:invalid {
+	border-color: red;
+}
+
+form input:focus:valid {
+	border-color: blue;
+}
+
+form input:focus:invalid {
+	border-color: orange;
+}

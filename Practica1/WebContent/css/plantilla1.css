@@ -1,0 +1,47 @@
+@CHARSET "utf-8";
+@font-face{
+	font-family: pacifico;
+	font-family: DoubleFeature20;
+	src: url(../fonts/Pacifico.ttf);
+	src: url(../fonts/DoubleFeature20.ttf);	
+}
+body#fondo{
+	background-image: url(../imagenes/fondo1.jpg);
+	background-size: 1366px 768px;
+	background-repeat: no-repeat;
+}
+p.A01{
+	color: green;
+	background-color: rgba(180, 100, 0.5);	
+	font-family: pacifico;
+	font-size: 20px;
+	font-stretch: condensed;
+	font-style: italic;
+	line-height: 100%;
+	text-align: left;
+	text-shadow: 3px 3px #8A8F81;
+	border: 3px solid #8A8F81;
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: 2px 2px 8px #8A8F81;
+	width: 800px;
+	height: 50px;
+}
+p.A02{
+	color: red;
+	font-family: Comic Sans MS;
+	background-color: rgba(50, 150, 180, 0.5);
+	font-size: 30px;
+	font-stretch: condensed;
+	font-style: blod;
+	line-height: 200%;
+	text-align: center;
+}
+p.A03{
+	color: black;
+	font-family: DoubleFeature20;
+	background-color: rgba(100, 80, 0.5);
+	font-size: 20px;
+	border: 5px solid #8A8F81;
+	font-style: italic;
+	text-align: left;
+}
