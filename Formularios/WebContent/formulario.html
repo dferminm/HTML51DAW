@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejemplo formulario</title>
+<link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+	<form name="f" id="f" method="get" action="enviado.php">
+	<label>correo: </label>
+	<input class="bonito" type="email" name="e" id="e" required><br>
+	
+	<datalist id="valoresbusqueda">
+	<option value="Antonio" label="Antonio">
+	<option value="Pepe" label="Pepe">
+	</datalist>
+	
+	<label>Buscar: </label>
+	<input type="search" name="se" class="bonito" id="se" 
+	list="valoresbusqueda" required placeholder="Introduce tu búsqueda"><br>
+	
+	<label>URL: </label>
+	<input type="url" name="url" class="bonito" id="url" required><br>
+	
+	<input type="submit" name="s" id="s" value="enviar">
+	</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@CHARSET "utf-8";
+
+form input.bonito:valid {
+	border-color: lime;
+}
+
+form input.bonito:invalid {
+	border-color: red;
+}
+
+form input.bonito:focus:valid {
+	border-color: blue;
+}
+
+form input.bonito:focus:invalid {
+	border-color: orange;
+}
