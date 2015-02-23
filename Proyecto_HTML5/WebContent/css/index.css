@@ -1,11 +1,11 @@
 @CHARSET "utf-8";
 @font-face {
 	font-family: musicals;
-	src: url(../fonts/musicals/musicals.ttf);
+	src: url(../fonts/musicals/Musicals.ttf);
 }
 @font-face {
 	font-family: musica;
-	src: url(../fonts/WC_Musica_Bta/WC_Musica_Bta.ttf);
+	src: url(../fonts/wc_musica_bta/WC_Musica_Bta.ttf);
 }
 
 .fondo{
