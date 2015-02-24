@@ -3,8 +3,56 @@
 <head>
 <meta charset="utf-8">
 <title>Formulario</title>
+<link rel="stylesheet" href="./css/formulario.css">
 </head>
-<body>
+<body class="fondo">
+<header>
+	<a href="./index.html">MUSICALIA - Tu tienda de instrumentos online</a>
+	<h1>a b d h i</h1>
+</header>
+<br>
+<nav>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+		<hr>
+	<ul>	
+		<li><a href="./articulos.html">ARTÍCULOS</a></li>
+		<li><a href="./imagenes.html">IMÁGENES</a></li>
+		<li><a href="./multimedia.html">MULTIMEDIA</a></li>
+		<li><a href="./formulario.html">REGISTRO</a></li>
+	</ul>
+</nav>
+<section>
+	<form name="f" id="f" method="get" action="./registroCompletado.html">
+	<label>Nombre: </label>
+		<input type="text" name="n" id="n" required><br>
+	<label>Apellidos: </label>
+		<input type="text" name="a" id="a" required><br>
+	<label>Código Postal: </label>
+		<input type="text" name="cod_postal" pattern="[1-9]{3}" title="cod_postal"><br>
+	<label>Correo: </label>
+		<input type="email" name="e" id="e" required><br>
+	<label>Contraseña: </label>
+		<input type="password" name="p" id="p"><br>
+	<label>Fecha de nacimiento: </label>
+		<input type="date" name="fecha" id="fecha"><br>
+	<label>Instrumento favorito: </label>
+		<input type="color" name="fav_color"><br>
+	<label>Familia instruental: </label>
+		<input type="checkbox" name="familia" value="Percusion">Percusión
+		<input type="checkbox" name="familia" value="Cuerda">Cuerda
+		<input type="checkbox" name="familia" value="Viento">Viento<br>
+	<label>Sexo: </label>
+		<input type="radio" name="sexo" value="hombre" checked>Hombre
+		<input type="radio" name="sexo" value="mujer">Mujer<br>
+		<input type="submit" value="Enviar">
+	</form>
+</section>
+<footer>
+	<h3>www.musicalia.com | PROYECTO FINAL HTML5 | David Fermín Maestro</h3>
+</footer>
 
 </body>
 </html>
