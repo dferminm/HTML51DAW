@@ -160,10 +160,16 @@ section .art05 img {
 }
 
 img {
+	border-radius: 50%;
 	width: 400px;
 	height: 400px;
 	position: relative;
 	left: -10%;
+}
+
+img:hover {
+	background-color: #e5e5e5;
+	border-radius: 50%;
 }
 
 footer {
